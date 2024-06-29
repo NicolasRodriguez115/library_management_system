@@ -1,6 +1,6 @@
-from book_operations.menu import book_operations_menu
-from user_operations.menu import user_operations_menu
-from author_operations.menu import author_operations_menu
+from app.book_operations.menu import book_operations_menu
+from app.user_operations.menu import user_operations_menu
+from app.author_operations.menu import author_operations_menu
 import os
 def main_menu():
     while True:
@@ -9,7 +9,13 @@ def main_menu():
     """
 Welcome to the Library Management System!
 
-Main Menu:
+___  ___  ___  _____ _   _  ___  ___ _____ _   _ _   _ 
+|  \/  | / _ \|_   _| \ | | |  \/  ||  ___| \ | | | | |
+| .  . |/ /_\ \ | | |  \| | | .  . || |__ |  \| | | | |
+| |\/| ||  _  | | | | . ` | | |\/| ||  __|| . ` | | | |
+| |  | || | | |_| |_| |\  | | |  | || |___| |\  | |_| |
+\_|  |_/\_| |_/\___/\_| \_/ \_|  |_/\____/\_| \_/\___/
+
     1. Book Operations
     2. User Operations
     3. Author Operations

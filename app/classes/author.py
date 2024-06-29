@@ -1,3 +1,6 @@
+authors = []
 class Author:
     def __init__(self, name, nationality):
-        pass
+        self.name = name
+        self.nationality = nationality
+    
