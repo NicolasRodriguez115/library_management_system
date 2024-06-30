@@ -1,11 +1,7 @@
 from app.classes.book import library
 def books_display():
     print("""
-  ____   ___   ___  _  ______  
- | __ ) / _ \ / _ \| |/ / ___| 
- |  _ \| | | | | | | ' /\___ \ 
- | |_) | |_| | |_| | . \ ___) |
- |____/ \___/ \___/|_|\_\____/
+Books:
 ---------
           """)
     for book in library:

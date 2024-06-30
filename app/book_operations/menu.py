@@ -1,17 +1,10 @@
 import os
 from app.book_operations import add_new_book as ab, display_books as db, borrow_book as bb,  return_book as rb, search_for_book as sb
 def book_operations_menu():
-    os.system("cls")
     while True:
+        os.system("cls")    
         user_input = input("""
-______  _____  _____ _   __  _________________ _____  ___ _____ _____ _____ _   _  _____ 
-| ___ \|  _  ||  _  | | / / |  _  | ___ \ ___ \  ___|/ _ \_   _|_   _|  _  | \ | |/  ___|
-| |_/ /| | | || | | | |/ /  | | | | |_/ / |_/ / |__ / /_\ \| |   | | | | | |  \| |\ `--. 
-| ___ \| | | || | | |    \  | | | |  __/|    /|  __||  _  || |   | | | | | | . ` | `--. \
-| |_/ /\ \_/ /\ \_/ / |\  \ \ \_/ / |   | |\ \| |___| | | || |  _| |_\ \_/ / |\  |/\__/ /
-\____/  \___/  \___/\_| \_/  \___/\_|   \_| \_\____/\_| |_/\_/  \___/ \___/\_| \_/\____/
-                           
-                           
+Book Operations:           
     1. Add a new book
     2. Borrow a book
     3. Return a book

@@ -3,8 +3,8 @@ from app.author_operations.add_new_author import new_author
 from app.author_operations.view_author_details import author_details
 from app.author_operations.display_all_authors import display_authors
 def author_operations_menu():
-    os.system("cls")
     while True:
+        os.system("cls")
         user_input = input("""
   ___  _   _ _____ _   _ ___________   _________________ _____  ___ _____ _____ _____ _   _  _____ 
  / _ \| | | |_   _| | | |  _  | ___ \ |  _  | ___ \ ___ \  ___|/ _ \_   _|_   _|  _  | \ | |/  ___|

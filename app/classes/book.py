@@ -1,8 +1,4 @@
 library = []
-# library = [{"Title:": "100 años de soledad", "Author:": "Gabriel Garcia Marquez", "Publication date:": "1990", "Status": "Available"}]
-# library = {"Gabriel Garcia Marquez": [{"100 años de soledad": "Borrowed"}]}
-
-# library = {"Gabriel Garcia Marquez": [{}{}{}{}{}]}
 
 class Book:
     def __init__(self, title, author, publication_date, status):
@@ -32,13 +28,3 @@ class Book:
             return {"Message": "The book was succesfuly returned", "Successful" : True}
         else:
             return {"Message": "The book is not available to borrow", "Successful" : False}
-
-          
-
-
-    # def add_book_to_library(self):
-    #     library = {self.author: []}
-    #     library[self.author].append({self.title: self.status})
-
-    # def change_status(self, index):
-    #     library[self.author][index][self.title] = "Borrowed"
