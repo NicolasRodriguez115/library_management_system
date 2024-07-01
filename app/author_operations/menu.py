@@ -6,24 +6,21 @@ def author_operations_menu():
     while True:
         os.system("cls")
         user_input = input("""
-  ___  _   _ _____ _   _ ___________   _________________ _____  ___ _____ _____ _____ _   _  _____ 
- / _ \| | | |_   _| | | |  _  | ___ \ |  _  | ___ \ ___ \  ___|/ _ \_   _|_   _|  _  | \ | |/  ___|
-/ /_\ \ | | | | | | |_| | | | | |_/ / | | | | |_/ / |_/ / |__ / /_\ \| |   | | | | | |  \| |\ `--. 
-|  _  | | | | | | |  _  | | | |    /  | | | |  __/|    /|  __||  _  || |   | | | | | | . ` | `--. \
-| | | | |_| | | | | | | \ \_/ / |\ \  \ \_/ / |   | |\ \| |___| | | || |  _| |_\ \_/ / |\  |/\__/ /
-\_| |_/\___/  \_/ \_| |_/\___/\_| \_|  \___/\_|   \_| \_\____/\_| |_/\_/  \___/ \___/\_| \_/\____/
-                           
+Author Operations:                         
     1. Add a new author
     2. View author details
     3. Display all authors
     4. Quit
-                           
+
 """)
         if user_input == "1":
+            os.system("cls")
             new_author()
         elif user_input == "2":
+           os.system("cls")
            author_details()
         elif user_input == "3":
+            os.system("cls")
             display_authors()
         elif user_input == "4":
             return

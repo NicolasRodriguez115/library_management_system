@@ -11,13 +11,16 @@ User Operations:
     2. View user details
     3. Display all users
     4. Quit
-                           
+                                                  
 """)
         if user_input == "1":
+            os.system("cls")
             new_user()
         elif user_input == "2":
+           os.system("cls")
            user_details()
         elif user_input == "3":
+            os.system("cls")
             display_users()
         elif user_input == "4":
             return

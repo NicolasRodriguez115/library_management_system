@@ -11,7 +11,7 @@ Book Operations:
     4. Search for a book
     5. Display all books
     6. Quit
-                           
+
 """)
         if user_input == "1":
             os.system("cls")

@@ -1,5 +1,4 @@
 from app.classes.user import User
-from app.classes.user import users
 import random 
 def new_user():
     name = input("Enter the first and last name of the user:\n").title()
