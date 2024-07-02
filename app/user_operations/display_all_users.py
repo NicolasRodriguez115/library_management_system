@@ -8,4 +8,3 @@ Users:
         user.show_user()
     input("When you're done checking the list of users press 'enter'.\n ")
     return
-    

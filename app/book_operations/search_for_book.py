@@ -6,8 +6,3 @@ def search_book():
         if book.title == title:         
             book.show_book()
             input("Press 'enter' to go back.\n ")
-    
-    # Book(title)
-    # Book.search_book()
-    # input("To go back press 'enter'.\n ")
-    # return
