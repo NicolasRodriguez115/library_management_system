@@ -10,6 +10,6 @@ def new_book():
         if author.name == author_name:
             author.add_book(title)
 
-    input(f"You've succesfully added {title} by {author} to the library! Press 'enter' to go back.\n ")
+    input(f"You've succesfully added {title} by {author_name} to the library! Press 'enter' to go back.\n ")
     
     return

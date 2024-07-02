@@ -17,7 +17,7 @@ class User:
 
 
     def user_details(self):
-        print(f"{self.name}:\n User ID: {self.user_id}\n List of books in their possession:\n")
+        print(f"{self.name}:\n User ID: {self.user_id}\n List of books in their possession:")
         self.display_borrowed_books()
 
     def book_borrowed(self, book):

@@ -5,7 +5,7 @@ class Author:
         self.nationality = nationality
         self.books = []
     
-    def new_user(self):
+    def new_author(self):
         authors.append(self)
 
     def add_book(self, book):
@@ -18,6 +18,6 @@ class Author:
         for book in self.books:
             print(book)
 
-    def user_details(self):
-        print(f"{self.name}:\n{self.nationality}\nWe currently own the following books by this author:\n")
+    def author_details(self):
+        print(f"{self.name} ~ {self.nationality}\nWe currently own the following books by this author:")
         self.list_of_books()
