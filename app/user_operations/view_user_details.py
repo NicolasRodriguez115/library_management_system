@@ -1,9 +1,9 @@
 from app.classes.user import users
 def user_details():
-    select_user = input("Enter the ID of the user to see their information\n")
+    select_user = input("Enter the ID of the user to see their information\n").strip()
     
     for user in users:
-        if user.user_id == select_user:
+        if user.get_user_id().strip() == select_user:
             user.user_details()
             input("Press 'enter' to go back.\n ")
             return

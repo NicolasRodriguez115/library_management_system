@@ -1,7 +1,7 @@
 from app.classes.user import User
 import random 
 def new_user():
-    name = input("Enter the first and last name of the user:\n").title()
+    name = input("Enter the first and last name of the user:\n").title().strip()
     user_id = str(random.randint(100000, 999999))
     new_user = User(name, user_id)
     new_user.new_user()
